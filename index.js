@@ -34,6 +34,6 @@ connectDB();
 
 app.use(errorHandler);
 
-app.use("/storage", express.static("storage"));
+// app.use("/storage", express.static("storage"));
 
 app.listen(port, console.log(`server is running on port: ${port}`));
